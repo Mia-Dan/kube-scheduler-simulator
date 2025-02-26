@@ -38,6 +38,7 @@ services:
       - ./simulator/kubeconfig.yaml:/kubeconfig.yaml
       - /var/run/docker.sock:/var/run/docker.sock
       - conf:/config
+      - ./simulator/kschcfg.yaml:/kschcfg.yaml
     ports:
       - "1212:1212"
     restart: always
