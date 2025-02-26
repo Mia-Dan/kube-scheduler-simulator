@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   extender:
-    image: test/test:test   # TODO(user): replace it with your extender's image
+    image: miadan/k8s-scheduler-extender-example:v0.0.0   # TODO(user): replace it with your extender's image
     ports:
       - "80:80"
     networks:
